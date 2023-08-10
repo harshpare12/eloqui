@@ -2,11 +2,11 @@
 Eloqui is a Conversational AI tool for learning the English language. Eloqui is designed to provide casual conversation for practicing language skills. One can think of it in a similar way as DuoLingo.
 
 ## Features
-Users spoken input is transcribed using the [Whisper]([url](https://github.com/openai/whisper)) library.
-Uses [ChatGPT API]([url](https://platform.openai.com/docs/guides/gpt)) (GPT3.5 Turbo model) to generate responses for the user's input
-The generated responses are converted to speech using the library [edge-tts]([url](https://pypi.org/project/edge-tts/))
-Provides options for different language proficiency levels. The user can select a level from grades 1-12, and the model will behave accordingly.
-Remembers the previous conversations made with the user. Uses the library [ChromaDB]([url](https://www.trychroma.com/)) for storing the old conversations.
+1. Users spoken input is transcribed using the [Whisper]([url](https://github.com/openai/whisper)) library.
+2. Uses [ChatGPT API]([url](https://platform.openai.com/docs/guides/gpt)) (GPT3.5 Turbo model) to generate responses for the user's input
+3. The generated responses are converted to speech using the library [edge-tts]([url](https://pypi.org/project/edge-tts/))
+4. Provides options for different language proficiency levels. The user can select a level from grades 1-12, and the model will behave accordingly.
+5. Remembers the previous conversations made with the user. Uses the library [ChromaDB]([url](https://www.trychroma.com/)) for storing the old conversations.
 
 ## Run Eloqui
 In order to run the app, run the python script main.py. It takes the following command-line arguments:
